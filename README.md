@@ -1,4 +1,4 @@
 scala-china
 ===========
 
-Scala中国
+scala-china

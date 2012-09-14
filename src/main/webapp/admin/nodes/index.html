@@ -1,0 +1,45 @@
+<div class="lift:surround?with=admin&at=content">
+	<div class="row-fluid">
+		<div class="span3">
+				<div class="well-white">
+					 <div class="page-header">
+                    	<h1>讨论节点管理 <i class="icon-pencil"></i></h1>
+                	</div>
+                    <div style="padding-left:5px">
+                    	<span class="lift:Menu.builder"></span>
+					<ul id="userbar" class="nav nav-list bs-docs-sidenav">
+						<li><a href="/admin/sections"><i class="icon-chevron-right"></i> 分类管理</a></li>
+						<li><a href="/admin/nodes"><i class="icon-chevron-right"></i> 版块管理</a></li>
+					</ul>
+					</div>
+				</div>
+		</div>
+		<div class="span9">
+			<div class="well-white bottom20px">
+                <div class="page-header">
+                    <h1>讨论节点管理 <i class="icon-pencil"></i></h1>
+                </div>
+                <div>
+                    <div class="padding20px">
+                        <a href="/admin/nodes/add"><i class="icon-chevron-right"></i> 新建讨论节点</a>
+                        <table class="table table-bordered">
+					<thead>
+						<tr>
+							<th>名称</th>
+                            <th>类别</th>
+							<th>排序</th>
+							<th>操作</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class="lift:NodeSnp.list" />
+					</tbody>
+				</table>
+                    </div>
+                    
+                </div>
+            </div>
+		</div>
+	</div>
+</div>
+

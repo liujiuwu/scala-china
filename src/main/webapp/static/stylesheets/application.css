@@ -1,0 +1,71 @@
+body {
+	padding-top: 60px;
+	padding-bottom: 40px;
+	background-color: #F5F5F5;
+}
+
+.well-white {
+	-moz-box-sizing: border-box;
+	background-color: #FFFFFF;
+	border: 1px solid #D5D5D5;
+	border-radius: 6px 6px 6px 6px;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075);
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.well-white .page-header {
+	margin-top: 20px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.well-white .page-header h1 {
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 15px;
+}
+
+.well-white .page-content {
+	padding: 0 20px;
+}
+
+.well-white .page-header.no-margin-bottom {
+	margin-bottom: 0;
+}
+
+.well-white.with-icon .page-header i {
+	margin-right: 10px;
+	position: relative;
+	top: 4px;
+}
+
+.well-white .form-actions.no-margin-bottom {
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	margin-bottom: 0;
+}
+
+.page-header i {
+	margin-right: 10px;
+	position: relative;
+	top: 4px;
+}
+
+.well-white .form-actions.no-margin-bottom {
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	margin-bottom: 0;
+}
+
+.widget-box {
+	background: none repeat scroll 0 0 #F9F9F9;
+	border: 1px solid #CDCDCD;
+	clear: both;
+	margin-bottom: 16px;
+	margin-top: 16px;
+	overflow: hidden !important;
+	position: relative;
+}
